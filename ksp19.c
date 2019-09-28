@@ -9,12 +9,31 @@ int main()
 {
     int i,j;
     char text[1000],ch;
-    printf("Enter the that you want to conver into uppercase:\n");
+    printf("Enter the text you want to convert into uppercase or lowercase: ");
     scanf(" %[^\n]",text);
-    printf("The text in uppercase is:");
-    for(j=0;j<strlen(text);j++){
+    int n;
+    int len=strlen(text);
+
+    printf("Enter 1 to convert text into uppercase or enter 2 for convert text into lowercase: ");
+    scanf("%d",&n);
+    if(n ==1){
+        printf("The text in uppercase is:  ");
+
+    for(j=0;j<len;j++){
             ch='A' + text[j] -'a';
         printf("%c",ch);
     }
     printf("\n");
+    }
+    else{
+         printf("The text in lowercase is:  ");
+
+        for(j=0;j<len;j++){
+                ch='a' + text[j] -'A';
+            printf("%c",ch);
+        }
+        printf("\n");
+    }
+
+
 }

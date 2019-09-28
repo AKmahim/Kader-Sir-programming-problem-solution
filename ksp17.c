@@ -6,9 +6,11 @@ as follows:
  Third Line: all excepts first two digits
 Input:12345
 OUTPUT:
-  First line:12345
-  second lin:2345
-  third line:345
+  12345
+  2345
+  345
+  45
+  5
 
 */
 #include<stdio.h>
@@ -16,18 +18,19 @@ OUTPUT:
 int main()
 {
     char str[50];
-    int i;
-    gets(str);
+    int i,j,len;
+    scanf("%s",str);
+    len=strlen(str);
+    printf("The Output: \n");
+    for(i=0;i<len;i++){
+        for(j=i;j<len;j++){
+            printf("%c",str[j]);
+        }
+        printf("\n");
+    }
 
-    printf("First line: %s\n",str);
-    printf("Second line: ");
-    for(i=1;i<strlen(str);i++){
-        printf("%c",str[i]);
-    }
-    printf("\nThird line: ");
-    for(i=2;i<strlen(str);i++){
-        printf("%c",str[i]);
-    }
+
+
     return 0;
 
 

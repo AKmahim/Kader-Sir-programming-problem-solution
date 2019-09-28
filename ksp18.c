@@ -12,10 +12,10 @@ int main()
 {
     int f,s,sum,i,n;
     scanf("%d",&n);
-    printf("First %d fibonacci is: 1 1 ",n);
-    s=1;
+    printf("First %d fibonacci is:  ",n);
+    s=0;
     f=1;
-    for(i=1;i<=n-2;i++){
+    for(i=1;i<=n;i++){
         sum=f+s;
         f=s;
         s=sum;

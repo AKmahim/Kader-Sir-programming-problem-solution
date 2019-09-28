@@ -14,7 +14,7 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    printf("The factorial of %d is :%d",n,factorial(n));
+    printf("The factorial of %d is :%d ",n,factorial(n));
     return 0;
 }
 int factorial(int n)

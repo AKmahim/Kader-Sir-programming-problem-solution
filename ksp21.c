@@ -16,6 +16,6 @@ int main()
         count++;
     }
     printf("The copied string is:%s\n",str2);
-    printf("The amount of copied charecter:%d\n",count);
+    printf("The amount of copied character:%d\n",count);
     return 0;
 }
