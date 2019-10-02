@@ -1,3 +1,11 @@
+/*
+
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE*/
+
+
 #include<stdio.h>
 int main()
 {

@@ -4,6 +4,10 @@ Example:
 INPUT:12345
 OUTPUT:54321
 
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
 */
 #include<stdio.h>
 int main()

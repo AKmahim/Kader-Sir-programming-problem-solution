@@ -5,6 +5,10 @@ Fibonacci numbers.
 INPUT:5
 OUTPUT:1 1 2 3 5
 
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
+
 */
 
 #include<stdio.h>

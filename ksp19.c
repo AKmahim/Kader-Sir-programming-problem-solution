@@ -2,6 +2,11 @@
 Example:
 INPUT:i love my country
 OUTPUT:I LOVE MY COUNTRY
+
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
 */
 #include<stdio.h>
 #include<string.h>

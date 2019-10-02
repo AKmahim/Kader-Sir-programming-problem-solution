@@ -1,4 +1,10 @@
-/*This program is use to convert celsius to fahrenheit*/
+/*This program is use to convert celsius to fahrenheit
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
+
+*/
 #include<stdio.h>
 int main()
 {

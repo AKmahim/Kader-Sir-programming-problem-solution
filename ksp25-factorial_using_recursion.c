@@ -3,6 +3,11 @@ Write a program in C to find the factorial of an integer using
 recursive function.
 INPUT:5
 OUTPUT:the factorial of 5 is:120
+
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
 */
 #include<stdio.h>
 

@@ -12,6 +12,11 @@ OUTPUT:
   45
   5
 
+
+  © Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
+
 */
 #include<stdio.h>
 #include<string.h>

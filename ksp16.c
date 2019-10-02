@@ -1,6 +1,13 @@
 /*write a program in c programming language to compute the sum of a given integer number
 Input: 12345
 Output: 15
+
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
+
+
 */
 
 #include<stdio.h>

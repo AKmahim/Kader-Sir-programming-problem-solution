@@ -7,6 +7,10 @@ Output:
 0 1 0 1 0
 1 0 0 0 1
 
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
 */
 
 #include<stdio.h>

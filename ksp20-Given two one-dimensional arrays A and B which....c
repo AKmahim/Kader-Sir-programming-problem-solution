@@ -7,6 +7,11 @@ INPUT:array1:1 3 4 5
       array2:2 6 7 8 9 10
 
 OUTPUT:array3:1 2 3 4 5 6 7 8 9 10
+
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
 */
 
 //sorting segment

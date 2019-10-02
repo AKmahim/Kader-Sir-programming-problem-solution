@@ -1,3 +1,13 @@
+/*
+
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
+
+*/
+
+
 #include<stdio.h>
 #define pi 3.14159
 int main()

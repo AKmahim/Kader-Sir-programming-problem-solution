@@ -3,6 +3,16 @@ Input : eye
 Output: eye is a palindrome.
 Input : mahim
 Output: mahim is not a palindrome.
+
+
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
+
+
+
+
 */
 #include<stdio.h>
 #include<stdio.h>

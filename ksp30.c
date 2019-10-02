@@ -2,6 +2,10 @@
 
 This program is used to take a student name and their three subject mark
 
+
+© Mirajul Islam Mahim
+   Student at Mohammadpur Kendriya college
+   Dept. of CSE
 */
 
 
