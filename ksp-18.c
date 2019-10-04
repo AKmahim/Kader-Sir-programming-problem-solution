@@ -19,12 +19,16 @@ int main()
     printf("First %d fibonacci is:  ",n);
     s=0;
     f=1;
-    for(i=1;i<=n;i++){
+    i=0;
+    do{
         sum=f+s;
         f=s;
         s=sum;
         printf("%d ",sum);
+        i++;
     }
+    while(i<n);
+
     return 0;
 
 
