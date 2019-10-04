@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int r1,c1,r2,c2,i,n=3;
-    int a[3][3],b[3][3],C[3][3];
+    int r1,c1,r2,c2,i,j,k,l;
+    int a[30][30],b[30][30],C[30][30];
 
     //INPUT segment
     printf("Enter first matrix row & collum: ");
@@ -10,33 +10,38 @@ int main()
     printf("Enter second matrix row & collum: ");
     scanf("%d %d",&r2,&c2);
     printf("Enter the first Matrix element: \n");
-    for(r1=0;r1<n;r1++){
-        for(c1=0;c1<n;c1++){
-            scanf("%d",&a[r1][c1]);
+    for(i=0;i<r1;i++){
+        for(j=0;j<c1;j++){
+            scanf("%d",&a[i][j]);
         }
     }
     printf("Enter the second Matrix element: \n");
-    for(r2=0;r2<n;r2++){
-        for(c2=0;c2<n;c2++){
-            scanf("%d",&b[r2][c2]);
+    for(i=0;i<r2;i++){
+        for(j=0;j<c2;j++){
+            scanf("%d",&b[i][j]);
         }
     }
-
-    //Calculation segment
-    for(r1=0;r1<n;r1++){
-        for(c2=0;c2<n;c2++){
+    if(r1 != c2){
+        printf("matrix multiply is not possible\n");
+    }
+    else{
+        //Calculation segment
+    for(i=0;i<r1;i++){
+        for(j=0;j<c2;j++){
             int sum=0;
-            for(i=0;i<n;i++){
-                sum=sum+a[r1][i]*b[i][c2];
+            for(l=0;l<c2;l++){
+                sum=sum+a[i][l]*b[l][j];
             }
             C[r1][c2]=sum;
         }
     }
 
+    }
+
     printf("The multiply of first matrix and second matrix: \n");
-    for(r1=0;r1<n;r1++){
-        for(c2=0;c2<n;c2++){
-            printf("%d\t",C[r1][c2]);
+    for(i=0;i<r1;i++){
+        for(j=0;j<c2;j++){
+            printf("%d\t",C[i][j]);
         }
         printf("\n");
     }
